@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NEON DRIFT ULTIMATE</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="menu">
+
+<h1>NEON DRIFT</h1>
+
+<button id="startBtn">START GAME</button>
+
+<p>Rekord: <span id="bestScore">0</span></p>
+
+</div>
+
+<div id="ui">
+    <div>Score: <span id="score">0</span></div>
+    <div>Combo: <span id="combo">1.0</span></div>
+    <div>Speed: <span id="speed">0</span>
+        <div class="bar"><div id="speedBar" class="fill"></div></div>
+    </div>
+    <div>Nitro: <span id="nitro">100</span>
+        <div class="bar"><div id="nitroBar" class="fill"></div></div>
+    </div>
+</div>
+
+
+<canvas id="game"></canvas>
+
+<script src="js/input.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/car.js"></script>
+<script src="js/world.js"></script>
+<script src="js/obstacles.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/game.js"></script>
+
+</body>
+</html>
